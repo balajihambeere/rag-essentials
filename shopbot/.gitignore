@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+*.egg-info/
+
+# ChromaDB (Ch. 3 — local vector store, ephemeral, rebuilt via src/ingest.py)
+chroma_db/
+
+CLAUDE.md

@@ -1,0 +1,1017 @@
+{
+  "run_id": "run_20260803_152305",
+  "queries": [
+    {
+      "question": "Is the linen co-ord set suitable for summer?",
+      "expected_answer": "Yes, the linen co-ord set is designed for summer casual wear.",
+      "answer": "Yes, the Linen Co-ord Set is designed specifically for casual summer wear. Its breathable linen fabric makes it a great choice for staying comfortable in warm weather.",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p004_identity",
+          "product_id": "p004",
+          "chunk_type": "identity",
+          "similarity": 0.8999,
+          "tokens": 47,
+          "text": "Linen Co-ord Set. Relaxed-fit co-ordinated top and trouser set in breathable linen. Designed for casual summer wear. Category: coord-set. Fabric: linen blend. Occasion: casual, summer, everyday."
+        },
+        {
+          "chunk_id": "p004_faq",
+          "product_id": "p004",
+          "chunk_type": "faq",
+          "similarity": 0.8649,
+          "tokens": 38,
+          "text": "Question about Linen Co-ord Set: Can the top and trouser be worn separately? Answer: Yes. Both pieces are designed to work as separates as well as a matched set."
+        },
+        {
+          "chunk_id": "p004_care",
+          "product_id": "p004",
+          "chunk_type": "care",
+          "similarity": 0.8621,
+          "tokens": 32,
+          "text": "Care instructions for Linen Co-ord Set: Hand wash or machine wash on gentle cycle. Do not tumble dry. Iron on low heat while slightly damp."
+        }
+      ],
+      "tokens": {
+        "embed_query": 11,
+        "context": 129,
+        "prompt_total": 441,
+        "llm_input": 445,
+        "llm_output": 32,
+        "answer": 33
+      },
+      "cost_usd": {
+        "embed": 2.2e-07,
+        "llm_input": 6.675e-05,
+        "llm_output": 1.92e-05,
+        "total": 8.617e-05
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "Can I wear the anarkali suit to a wedding?",
+      "expected_answer": "Yes, the anarkali suit is festive wear suitable for weddings.",
+      "answer": "Yes, you can wear the anarkali suit to a wedding! The embroidered anarkali suit is suitable for both daytime and evening wedding functions, while the heavy embroidered anarkali is ideal for mehendi, sangeet, and wedding reception events. If you have a specific style in mind, let me know!",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p005_faq",
+          "product_id": "p005",
+          "chunk_type": "faq",
+          "similarity": 0.9001,
+          "tokens": 38,
+          "text": "Question about Embroidered Anarkali Suit: Is this suitable for a daytime wedding? Answer: Yes. The embroidery and floor length make this appropriate for both daytime and evening wedding functions."
+        },
+        {
+          "chunk_id": "p027_faq",
+          "product_id": "p027",
+          "chunk_type": "faq",
+          "similarity": 0.8852,
+          "tokens": 46,
+          "text": "Question about Heavy Embroidered Anarkali: Is this suitable as a wedding reception outfit? Answer: Yes. The dense embroidery and bridal weight make this ideal for mehendi, sangeet, and wedding reception events."
+        },
+        {
+          "chunk_id": "p005_faq",
+          "product_id": "p005",
+          "chunk_type": "faq",
+          "similarity": 0.8687,
+          "tokens": 41,
+          "text": "Question about Embroidered Anarkali Suit: Does the suit include a dupatta? Answer: Yes. The anarkali suit comes with a matching embroidered dupatta in the same teal colourway."
+        }
+      ],
+      "tokens": {
+        "embed_query": 12,
+        "context": 136,
+        "prompt_total": 449,
+        "llm_input": 454,
+        "llm_output": 65,
+        "answer": 66
+      },
+      "cost_usd": {
+        "embed": 2.4e-07,
+        "llm_input": 6.81e-05,
+        "llm_output": 3.9e-05,
+        "total": 0.00010734
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "Is the silk saree suitable for Diwali?",
+      "expected_answer": "Yes, the silk saree is festive wear ideal for Diwali.",
+      "answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p047_faq",
+          "product_id": "p047",
+          "chunk_type": "faq",
+          "similarity": 0.8659,
+          "tokens": 44,
+          "text": "Question about Silk Embroidered Dupatta: Can this dupatta be paired with a saree? Answer: Yes. A silk dupatta can be draped as a stole with a saree for a layered festive look."
+        },
+        {
+          "chunk_id": "p020_faq",
+          "product_id": "p020",
+          "chunk_type": "faq",
+          "similarity": 0.8647,
+          "tokens": 40,
+          "text": "Question about Chanderi Saree: Is Chanderi suitable for a daytime wedding? Answer: Yes. Its lightweight sheer quality is perfect for daytime functions where heavy silk might feel too formal."
+        },
+        {
+          "chunk_id": "p003_faq",
+          "product_id": "p003",
+          "chunk_type": "faq",
+          "similarity": 0.8629,
+          "tokens": 41,
+          "text": "Question about Printed Silk Saree: Can this be worn for a wedding? Answer: Yes. The zari border and silk fabric make this saree appropriate for weddings, receptions, and formal festivals."
+        }
+      ],
+      "tokens": {
+        "embed_query": 11,
+        "context": 136,
+        "prompt_total": 448,
+        "llm_input": 451,
+        "llm_output": 22,
+        "answer": 23
+      },
+      "cost_usd": {
+        "embed": 2.2e-07,
+        "llm_input": 6.765e-05,
+        "llm_output": 1.32e-05,
+        "total": 8.107e-05
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "Is there anything suitable for a festive occasion?",
+      "expected_answer": "Yes, the silk saree and the anarkali suit are both festive wear.",
+      "answer": "Yes, here are some options suitable for festive occasions:\n\n1. **Embroidered Cotton Co-ord Set**: This set features mirror and thread embroidery, making it a popular choice for celebrations like Eid or Diwali.\n\n2. **Patiala Salwar Suit**: With its phulkari embroidery and traditional Patiala style, this suit is perfect for cultural celebrations such as Baisakhi or Lohri.\n\nThese pieces will help you look festive and stylish!",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p036_faq",
+          "product_id": "p036",
+          "chunk_type": "faq",
+          "similarity": 0.82,
+          "tokens": 42,
+          "text": "Question about Embroidered Cotton Co-ord Set: Is this suitable for Eid or Diwali? Answer: Yes. The mirror and thread embroidery make this co-ord a popular choice for festive celebrations."
+        },
+        {
+          "chunk_id": "p034_faq",
+          "product_id": "p034",
+          "chunk_type": "faq",
+          "similarity": 0.8169,
+          "tokens": 42,
+          "text": "Question about Silk Co-ord Set: Can this be worn to a work formal event? Answer: Yes. The silk co-ord in champagne or black is an excellent choice for award nights and formal dinners."
+        },
+        {
+          "chunk_id": "p025_faq",
+          "product_id": "p025",
+          "chunk_type": "faq",
+          "similarity": 0.8161,
+          "tokens": 48,
+          "text": "Question about Patiala Salwar Suit: Is this suit suitable for Baisakhi or Lohri? Answer: Yes. The phulkari embroidery and Patiala style make this a festive Punjabi staple for cultural celebrations."
+        }
+      ],
+      "tokens": {
+        "embed_query": 9,
+        "context": 143,
+        "prompt_total": 453,
+        "llm_input": 453,
+        "llm_output": 93,
+        "answer": 96
+      },
+      "cost_usd": {
+        "embed": 1.8e-07,
+        "llm_input": 6.795e-05,
+        "llm_output": 5.58e-05,
+        "total": 0.00012393
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "Is there anything for casual daily wear?",
+      "expected_answer": "Yes, the cotton kurta and the linen co-ord set are suited for casual daily wear.",
+      "answer": "Yes, we have a lovely option for casual daily wear:\n\n1. **Breathable Cotton Kurta**: This lightweight kurta is crafted from 100% breathable cotton, making it ideal for summer and warm weather. It's perfect for casual outings and can be paired with straight-fit trousers for a polished look.\n\nIf you're looking for something comfortable yet stylish for everyday wear, this kurta would be a great choice!",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p001_faq",
+          "product_id": "p001",
+          "chunk_type": "faq",
+          "similarity": 0.8422,
+          "tokens": 40,
+          "text": "Question about Breathable Cotton Kurta: Is this suitable for office wear? Answer: Yes, the cotton kurta is appropriate for casual office environments. Pair with straight-fit trousers for a polished look."
+        },
+        {
+          "chunk_id": "p001_identity",
+          "product_id": "p001",
+          "chunk_type": "identity",
+          "similarity": 0.8296,
+          "tokens": 48,
+          "text": "Breathable Cotton Kurta. Lightweight daily-wear kurta crafted from 100% breathable cotton. Ideal for summer and warm weather. Category: kurta. Fabric: 100% cotton. Occasion: casual, daily wear."
+        },
+        {
+          "chunk_id": "p033_faq",
+          "product_id": "p033",
+          "chunk_type": "faq",
+          "similarity": 0.8281,
+          "tokens": 40,
+          "text": "Question about Cotton Co-ord Set: Is this suitable as a gym or yoga outfit? Answer: The cotton fabric is comfortable for light activity, though it is primarily a casual fashion co-ord."
+        }
+      ],
+      "tokens": {
+        "embed_query": 8,
+        "context": 140,
+        "prompt_total": 449,
+        "llm_input": 454,
+        "llm_output": 84,
+        "answer": 85
+      },
+      "cost_usd": {
+        "embed": 1.6e-07,
+        "llm_input": 6.81e-05,
+        "llm_output": 5.04e-05,
+        "total": 0.00011866
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "What's good for a function?",
+      "expected_answer": "The silk saree and the anarkali suit are both suitable for a function \u2014 both are festive wear designed for celebrations and formal occasions.",
+      "answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 2,
+      "chunks": [
+        {
+          "chunk_id": "p034_faq",
+          "product_id": "p034",
+          "chunk_type": "faq",
+          "similarity": 0.7555,
+          "tokens": 42,
+          "text": "Question about Silk Co-ord Set: Can this be worn to a work formal event? Answer: Yes. The silk co-ord in champagne or black is an excellent choice for award nights and formal dinners."
+        },
+        {
+          "chunk_id": "p026_faq",
+          "product_id": "p026",
+          "chunk_type": "faq",
+          "similarity": 0.7503,
+          "tokens": 31,
+          "text": "Question about Cotton Straight Suit: Is this suitable for a work environment? Answer: Yes. The straight cut and muted colours are appropriate for most professional settings."
+        }
+      ],
+      "tokens": {
+        "embed_query": 7,
+        "context": 80,
+        "prompt_total": 388,
+        "llm_input": 393,
+        "llm_output": 22,
+        "answer": 23
+      },
+      "cost_usd": {
+        "embed": 1.4e-07,
+        "llm_input": 5.895e-05,
+        "llm_output": 1.32e-05,
+        "total": 7.229e-05
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "What colours does the silk saree come in?",
+      "expected_answer": "The silk saree is available in red, gold, and emerald.",
+      "answer": "We have a few different types of silk sarees available, each with its own colour options:\n\n1. **Printed Silk Saree**: Available in red, gold, and emerald.\n2. **Banarasi Silk Saree**: Available in deep red, royal blue, and forest green.\n3. **Kanjivaram Silk Saree**: Available in crimson with gold border, parrot green with gold border, and peacock blue with gold border.\n\nIf you have a specific saree in mind, let me know!",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p003_variants",
+          "product_id": "p003",
+          "chunk_type": "variants",
+          "similarity": 0.8939,
+          "tokens": 38,
+          "text": "Printed Silk Saree is available in colours: red, gold, emerald. Available sizes: standard \u2014 fits most. Price: \u20b94299. Stock status: in stock."
+        },
+        {
+          "chunk_id": "p015_variants",
+          "product_id": "p015",
+          "chunk_type": "variants",
+          "similarity": 0.8918,
+          "tokens": 41,
+          "text": "Banarasi Silk Saree is available in colours: deep red, royal blue, forest green. Available sizes: standard \u2014 fits most. Price: \u20b98999. Stock status: in stock."
+        },
+        {
+          "chunk_id": "p018_variants",
+          "product_id": "p018",
+          "chunk_type": "variants",
+          "similarity": 0.8875,
+          "tokens": 52,
+          "text": "Kanjivaram Silk Saree is available in colours: crimson with gold border, parrot green with gold border, peacock blue with gold border. Available sizes: standard \u2014 fits most. Price: \u20b97999. Stock status: in stock."
+        }
+      ],
+      "tokens": {
+        "embed_query": 10,
+        "context": 145,
+        "prompt_total": 456,
+        "llm_input": 460,
+        "llm_output": 108,
+        "answer": 110
+      },
+      "cost_usd": {
+        "embed": 2e-07,
+        "llm_input": 6.9e-05,
+        "llm_output": 6.48e-05,
+        "total": 0.000134
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "What sizes does the anarkali suit come in?",
+      "expected_answer": "The anarkali suit is available in sizes S to XXL.",
+      "answer": "The anarkali suits are available in the following sizes: S, M, L, XL, and XXL. If you need help choosing the right size, feel free to ask!",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p005_variants",
+          "product_id": "p005",
+          "chunk_type": "variants",
+          "similarity": 0.8994,
+          "tokens": 40,
+          "text": "Embroidered Anarkali Suit is available in colours: teal. Available sizes: S, M, L, XL, XXL. Price: \u20b93499. Stock status: in stock."
+        },
+        {
+          "chunk_id": "p027_variants",
+          "product_id": "p027",
+          "chunk_type": "variants",
+          "similarity": 0.8794,
+          "tokens": 48,
+          "text": "Heavy Embroidered Anarkali is available in colours: deep maroon, royal purple, midnight blue. Available sizes: S, M, L, XL, XXL. Price: \u20b94999. Stock status: in stock."
+        },
+        {
+          "chunk_id": "p005_faq",
+          "product_id": "p005",
+          "chunk_type": "faq",
+          "similarity": 0.8693,
+          "tokens": 41,
+          "text": "Question about Embroidered Anarkali Suit: Does the suit include a dupatta? Answer: Yes. The anarkali suit comes with a matching embroidered dupatta in the same teal colourway."
+        }
+      ],
+      "tokens": {
+        "embed_query": 11,
+        "context": 142,
+        "prompt_total": 454,
+        "llm_input": 460,
+        "llm_output": 37,
+        "answer": 38
+      },
+      "cost_usd": {
+        "embed": 2.2e-07,
+        "llm_input": 6.9e-05,
+        "llm_output": 2.22e-05,
+        "total": 9.142e-05
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "Do you have anything in teal?",
+      "expected_answer": "Yes, the anarkali suit is available in teal.",
+      "answer": "Yes, we have a few options in teal:\n\n1. **Printed Georgette Suit** - Available in sizes S, M, L, XL, XXL for \u20b91899.\n2. **Georgette Lehenga** - Available in sizes S, M, L, XL, XXL for \u20b94499.\n3. **Embroidered Anarkali Suit** - Available in sizes S, M, L, XL, XXL for \u20b93499.\n\nAll these options are currently in stock. If you need more details about any specific item, feel free to ask!",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p028_variants",
+          "product_id": "p028",
+          "chunk_type": "variants",
+          "similarity": 0.7976,
+          "tokens": 47,
+          "text": "Printed Georgette Suit is available in colours: coral floral, teal abstract, lavender paisley. Available sizes: S, M, L, XL, XXL. Price: \u20b91899. Stock status: in stock."
+        },
+        {
+          "chunk_id": "p045_variants",
+          "product_id": "p045",
+          "chunk_type": "variants",
+          "similarity": 0.7965,
+          "tokens": 42,
+          "text": "Georgette Lehenga is available in colours: coral, teal, ivory. Available sizes: S, M, L, XL, XXL. Price: \u20b94499. Stock status: in stock."
+        },
+        {
+          "chunk_id": "p005_variants",
+          "product_id": "p005",
+          "chunk_type": "variants",
+          "similarity": 0.7961,
+          "tokens": 40,
+          "text": "Embroidered Anarkali Suit is available in colours: teal. Available sizes: S, M, L, XL, XXL. Price: \u20b93499. Stock status: in stock."
+        }
+      ],
+      "tokens": {
+        "embed_query": 7,
+        "context": 143,
+        "prompt_total": 451,
+        "llm_input": 456,
+        "llm_output": 116,
+        "answer": 120
+      },
+      "cost_usd": {
+        "embed": 1.4e-07,
+        "llm_input": 6.84e-05,
+        "llm_output": 6.96e-05,
+        "total": 0.00013814
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "Can I get the woolen shawl in black?",
+      "expected_answer": "The woolen shawl is available in charcoal grey and maroon, not black.",
+      "answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p002_variants",
+          "product_id": "p002",
+          "chunk_type": "variants",
+          "similarity": 0.8755,
+          "tokens": 35,
+          "text": "Heavyweight Woolen Shawl is available in colours: charcoal grey, maroon. Available sizes: one size. Price: \u20b92199. Stock status: in stock."
+        },
+        {
+          "chunk_id": "p037_variants",
+          "product_id": "p037",
+          "chunk_type": "variants",
+          "similarity": 0.8518,
+          "tokens": 44,
+          "text": "Pashmina Shawl is available in colours: ivory with gold embroidery, deep red with black embroidery, teal with silver embroidery. Available sizes: one size. Price: \u20b93499. Stock status: in stock."
+        },
+        {
+          "chunk_id": "p002_faq",
+          "product_id": "p002",
+          "chunk_type": "faq",
+          "similarity": 0.8443,
+          "tokens": 43,
+          "text": "Question about Heavyweight Woolen Shawl: Is the shawl large enough to wrap fully? Answer: Yes. The shawl is 200 cm \u00d7 100 cm \u2014 large enough for a full shoulder wrap."
+        }
+      ],
+      "tokens": {
+        "embed_query": 11,
+        "context": 135,
+        "prompt_total": 447,
+        "llm_input": 455,
+        "llm_output": 22,
+        "answer": 23
+      },
+      "cost_usd": {
+        "embed": 2.2e-07,
+        "llm_input": 6.825e-05,
+        "llm_output": 1.32e-05,
+        "total": 8.167e-05
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "Does the linen co-ord set come in beige?",
+      "expected_answer": "Yes, the linen co-ord set is available in beige.",
+      "answer": "Yes, the Linen Co-ord Set is available in beige. If you have any other questions or need help with sizes, feel free to ask!",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p004_variants",
+          "product_id": "p004",
+          "chunk_type": "variants",
+          "similarity": 0.8897,
+          "tokens": 43,
+          "text": "Linen Co-ord Set is available in colours: beige, sage, dusty rose. Available sizes: XS, S, M, L, XL. Price: \u20b91899. Stock status: in stock."
+        },
+        {
+          "chunk_id": "p004_identity",
+          "product_id": "p004",
+          "chunk_type": "identity",
+          "similarity": 0.849,
+          "tokens": 47,
+          "text": "Linen Co-ord Set. Relaxed-fit co-ordinated top and trouser set in breathable linen. Designed for casual summer wear. Category: coord-set. Fabric: linen blend. Occasion: casual, summer, everyday."
+        },
+        {
+          "chunk_id": "p004_faq",
+          "product_id": "p004",
+          "chunk_type": "faq",
+          "similarity": 0.8431,
+          "tokens": 38,
+          "text": "Question about Linen Co-ord Set: Can the top and trouser be worn separately? Answer: Yes. Both pieces are designed to work as separates as well as a matched set."
+        }
+      ],
+      "tokens": {
+        "embed_query": 11,
+        "context": 141,
+        "prompt_total": 453,
+        "llm_input": 459,
+        "llm_output": 30,
+        "answer": 31
+      },
+      "cost_usd": {
+        "embed": 2.2e-07,
+        "llm_input": 6.885e-05,
+        "llm_output": 1.8e-05,
+        "total": 8.707e-05
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "Does the cotton kurta need dry cleaning?",
+      "expected_answer": "No, the cotton kurta is machine washable.",
+      "answer": "No, the breathable cotton kurta does not need dry cleaning. It can be machine washed cold on a gentle cycle. Just remember to avoid bleach, tumble dry on low, and iron on medium heat.",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p006_faq",
+          "product_id": "p006",
+          "chunk_type": "faq",
+          "similarity": 0.9058,
+          "tokens": 39,
+          "text": "Question about Chanderi Silk Kurta: Does chanderi silk require special care? Answer: Yes. Dry cleaning is recommended to preserve the sheen and woven motifs. Avoid machine washing."
+        },
+        {
+          "chunk_id": "p001_care",
+          "product_id": "p001",
+          "chunk_type": "care",
+          "similarity": 0.8901,
+          "tokens": 30,
+          "text": "Care instructions for Breathable Cotton Kurta: Machine wash cold on gentle cycle. Do not bleach. Tumble dry low. Iron on medium heat."
+        },
+        {
+          "chunk_id": "p006_care",
+          "product_id": "p006",
+          "chunk_type": "care",
+          "similarity": 0.8879,
+          "tokens": 30,
+          "text": "Care instructions for Chanderi Silk Kurta: Dry clean preferred. If hand washing, use cold water and mild detergent. Air dry in shade."
+        }
+      ],
+      "tokens": {
+        "embed_query": 9,
+        "context": 110,
+        "prompt_total": 420,
+        "llm_input": 425,
+        "llm_output": 41,
+        "answer": 41
+      },
+      "cost_usd": {
+        "embed": 1.8e-07,
+        "llm_input": 6.375e-05,
+        "llm_output": 2.46e-05,
+        "total": 8.853e-05
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "How do I care for the woolen shawl?",
+      "expected_answer": "The woolen shawl requires dry cleaning only.",
+      "answer": "For the Heavyweight Woolen Shawl, you should dry clean it only. Avoid machine washing, tumble drying, or wringing. When storing, keep it folded in a breathable fabric bag.",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p002_care",
+          "product_id": "p002",
+          "chunk_type": "care",
+          "similarity": 0.8999,
+          "tokens": 34,
+          "text": "Care instructions for Heavyweight Woolen Shawl: Dry clean only. Do not machine wash, tumble dry, or wring. Store folded in a breathable fabric bag."
+        },
+        {
+          "chunk_id": "p037_care",
+          "product_id": "p037",
+          "chunk_type": "care",
+          "similarity": 0.8706,
+          "tokens": 36,
+          "text": "Care instructions for Pashmina Shawl: Dry clean only. Store wrapped in acid-free tissue paper. Do not store in a plastic bag \u2014 pashmina needs to breathe."
+        },
+        {
+          "chunk_id": "p040_care",
+          "product_id": "p040",
+          "chunk_type": "care",
+          "similarity": 0.8613,
+          "tokens": 28,
+          "text": "Care instructions for Kaani Woolen Stole: Dry clean only. Store folded in a muslin wrap. Air periodically to maintain freshness."
+        }
+      ],
+      "tokens": {
+        "embed_query": 11,
+        "context": 109,
+        "prompt_total": 421,
+        "llm_input": 427,
+        "llm_output": 39,
+        "answer": 39
+      },
+      "cost_usd": {
+        "embed": 2.2e-07,
+        "llm_input": 6.405e-05,
+        "llm_output": 2.34e-05,
+        "total": 8.767e-05
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "What is the return policy for the silk saree?",
+      "expected_answer": "The silk saree can be returned within 7 days. It must be unstitched and unused.",
+      "answer": "The return policy for silk sarees varies by type:\n\n1. **Printed Silk Saree**: Returns are accepted within 7 days if the saree is unstitched, unused, and in its original packaging. Colour exchanges are available within 5 days.\n   \n2. **Kanjivaram Silk Saree**: Returns are accepted within 5 days if the saree is unstitched and unused. There are no colour exchanges available.\n\n3. **Banarasi Silk Saree**: Returns are accepted within 5 days if the saree is unstitched and unused. Colour exchanges are available within 5 days only. \n\nIf you have any more questions, feel free to ask!",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p003_policy",
+          "product_id": "p003",
+          "chunk_type": "policy",
+          "similarity": 0.9078,
+          "tokens": 46,
+          "text": "Return and exchange policy for Printed Silk Saree: Returns accepted within 7 days. Saree must be unstitched, unused, with original packaging. Exchange policy: Exchanges available for colour only within 5 days.."
+        },
+        {
+          "chunk_id": "p018_policy",
+          "product_id": "p018",
+          "chunk_type": "policy",
+          "similarity": 0.9038,
+          "tokens": 39,
+          "text": "Return and exchange policy for Kanjivaram Silk Saree: Returns within 5 days only. Must be unstitched and unused. Exchange policy: No colour exchanges. Size is standard.."
+        },
+        {
+          "chunk_id": "p015_policy",
+          "product_id": "p015",
+          "chunk_type": "policy",
+          "similarity": 0.8992,
+          "tokens": 37,
+          "text": "Return and exchange policy for Banarasi Silk Saree: Returns within 5 days. Must be unstitched and unused. Exchange policy: Colour exchange within 5 days only.."
+        }
+      ],
+      "tokens": {
+        "embed_query": 11,
+        "context": 136,
+        "prompt_total": 448,
+        "llm_input": 452,
+        "llm_output": 143,
+        "answer": 141
+      },
+      "cost_usd": {
+        "embed": 2.2e-07,
+        "llm_input": 6.78e-05,
+        "llm_output": 8.58e-05,
+        "total": 0.00015382
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "Does the cotton kurta shrink after washing?",
+      "expected_answer": "Minimal shrinkage of 2\u20133% may occur after the first wash.",
+      "answer": "The Breathable Cotton Kurta may experience minimal shrinkage of 2\u20133% after the first wash. To maintain its fit, it's recommended to wash it in cold water and air dry.",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p001_faq",
+          "product_id": "p001",
+          "chunk_type": "faq",
+          "similarity": 0.9411,
+          "tokens": 44,
+          "text": "Question about Breathable Cotton Kurta: Does this kurta shrink after washing? Answer: Minimal shrinkage of 2\u20133% may occur after first wash. We recommend washing cold and air drying to maintain fit."
+        },
+        {
+          "chunk_id": "p001_care",
+          "product_id": "p001",
+          "chunk_type": "care",
+          "similarity": 0.8854,
+          "tokens": 30,
+          "text": "Care instructions for Breathable Cotton Kurta: Machine wash cold on gentle cycle. Do not bleach. Tumble dry low. Iron on medium heat."
+        },
+        {
+          "chunk_id": "p012_care",
+          "product_id": "p012",
+          "chunk_type": "care",
+          "similarity": 0.8806,
+          "tokens": 31,
+          "text": "Care instructions for Mirror Work Cotton Kurta: Hand wash in cold water. Do not wring \u2014 mirrors may loosen with rough handling. Air dry flat."
+        }
+      ],
+      "tokens": {
+        "embed_query": 9,
+        "context": 116,
+        "prompt_total": 426,
+        "llm_input": 432,
+        "llm_output": 39,
+        "answer": 40
+      },
+      "cost_usd": {
+        "embed": 1.8e-07,
+        "llm_input": 6.48e-05,
+        "llm_output": 2.34e-05,
+        "total": 8.838e-05
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "Does the silk saree come with a blouse?",
+      "expected_answer": "No blouse is included. Blouse fabric can be sourced separately.",
+      "answer": "The Printed Silk Saree does not come with a blouse. It is unstitched, and you can source the blouse fabric separately. If you have any other questions, feel free to ask!",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p017_faq",
+          "product_id": "p017",
+          "chunk_type": "faq",
+          "similarity": 0.9187,
+          "tokens": 44,
+          "text": "Question about Chiffon Printed Saree: Does the saree come with a blouse? Answer: Yes. A matching stitched blouse in size M is included. Please mention your blouse size at checkout for customisation."
+        },
+        {
+          "chunk_id": "p003_faq",
+          "product_id": "p003",
+          "chunk_type": "faq",
+          "similarity": 0.8607,
+          "tokens": 48,
+          "text": "Question about Printed Silk Saree: Is the saree pre-stitched or unstitched? Answer: The saree is unstitched \u2014 a standard six-yard drape. No blouse is included. Blouse fabric can be sourced separately."
+        },
+        {
+          "chunk_id": "p015_variants",
+          "product_id": "p015",
+          "chunk_type": "variants",
+          "similarity": 0.8462,
+          "tokens": 41,
+          "text": "Banarasi Silk Saree is available in colours: deep red, royal blue, forest green. Available sizes: standard \u2014 fits most. Price: \u20b98999. Stock status: in stock."
+        }
+      ],
+      "tokens": {
+        "embed_query": 10,
+        "context": 145,
+        "prompt_total": 456,
+        "llm_input": 463,
+        "llm_output": 39,
+        "answer": 39
+      },
+      "cost_usd": {
+        "embed": 2e-07,
+        "llm_input": 6.945e-05,
+        "llm_output": 2.34e-05,
+        "total": 9.305e-05
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "Does the embroidered anarkali suit come with a dupatta?",
+      "expected_answer": "Yes, the anarkali suit comes with a matching embroidered dupatta in teal.",
+      "answer": "Yes, the embroidered anarkali suit comes with a matching embroidered dupatta in the same teal colourway.",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p005_faq",
+          "product_id": "p005",
+          "chunk_type": "faq",
+          "similarity": 0.9422,
+          "tokens": 41,
+          "text": "Question about Embroidered Anarkali Suit: Does the suit include a dupatta? Answer: Yes. The anarkali suit comes with a matching embroidered dupatta in the same teal colourway."
+        },
+        {
+          "chunk_id": "p042_faq",
+          "product_id": "p042",
+          "chunk_type": "faq",
+          "similarity": 0.884,
+          "tokens": 34,
+          "text": "Question about Party Wear Net Lehenga: Does the lehenga include a dupatta? Answer: Yes. A matching net dupatta with sequin border is included."
+        },
+        {
+          "chunk_id": "p005_identity",
+          "product_id": "p005",
+          "chunk_type": "identity",
+          "similarity": 0.8805,
+          "tokens": 55,
+          "text": "Embroidered Anarkali Suit. Floor-length anarkali suit with thread embroidery and matching dupatta. Festive wear for celebrations and formal occasions. Category: suit. Fabric: georgette with thread embroidery. Occasion: festive, wedding, formal, function."
+        }
+      ],
+      "tokens": {
+        "embed_query": 13,
+        "context": 142,
+        "prompt_total": 456,
+        "llm_input": 460,
+        "llm_output": 22,
+        "answer": 22
+      },
+      "cost_usd": {
+        "embed": 2.6e-07,
+        "llm_input": 6.9e-05,
+        "llm_output": 1.32e-05,
+        "total": 8.246e-05
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "Does the Anarkali suit have a cotton lining?",
+      "expected_answer": "I don't have information about the lining material for the Anarkali suit. For specific fabric details, please contact our team at support@zudyog.com.",
+      "answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p005_faq",
+          "product_id": "p005",
+          "chunk_type": "faq",
+          "similarity": 0.8783,
+          "tokens": 41,
+          "text": "Question about Embroidered Anarkali Suit: Does the suit include a dupatta? Answer: Yes. The anarkali suit comes with a matching embroidered dupatta in the same teal colourway."
+        },
+        {
+          "chunk_id": "p005_variants",
+          "product_id": "p005",
+          "chunk_type": "variants",
+          "similarity": 0.8548,
+          "tokens": 40,
+          "text": "Embroidered Anarkali Suit is available in colours: teal. Available sizes: S, M, L, XL, XXL. Price: \u20b93499. Stock status: in stock."
+        },
+        {
+          "chunk_id": "p005_faq",
+          "product_id": "p005",
+          "chunk_type": "faq",
+          "similarity": 0.8524,
+          "tokens": 38,
+          "text": "Question about Embroidered Anarkali Suit: Is this suitable for a daytime wedding? Answer: Yes. The embroidery and floor length make this appropriate for both daytime and evening wedding functions."
+        }
+      ],
+      "tokens": {
+        "embed_query": 11,
+        "context": 131,
+        "prompt_total": 443,
+        "llm_input": 449,
+        "llm_output": 22,
+        "answer": 23
+      },
+      "cost_usd": {
+        "embed": 2.2e-07,
+        "llm_input": 6.735e-05,
+        "llm_output": 1.32e-05,
+        "total": 8.077e-05
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "Do you have anything for a winter wedding?",
+      "expected_answer": "I don't have a product that matches that specifically.",
+      "answer": "For a winter wedding, I recommend considering our velvet lehengas, as velvet is best suited for autumn and winter events. If you're looking for something else, our silk or georgette lehengas are also great options for warmer climates, but they can be layered for added warmth in winter. \n\nIf you need more specific details about styles or prices, please reach out to our support team at support@zudyog.com for help!",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p044_faq",
+          "product_id": "p044",
+          "chunk_type": "faq",
+          "similarity": 0.7976,
+          "tokens": 49,
+          "text": "Question about Embroidered Velvet Lehenga: Is velvet comfortable in warm weather? Answer: Velvet is best suited for autumn and winter events. For summer or warm-climate weddings, we recommend our silk or georgette lehengas."
+        },
+        {
+          "chunk_id": "p005_faq",
+          "product_id": "p005",
+          "chunk_type": "faq",
+          "similarity": 0.7834,
+          "tokens": 38,
+          "text": "Question about Embroidered Anarkali Suit: Is this suitable for a daytime wedding? Answer: Yes. The embroidery and floor length make this appropriate for both daytime and evening wedding functions."
+        },
+        {
+          "chunk_id": "p020_faq",
+          "product_id": "p020",
+          "chunk_type": "faq",
+          "similarity": 0.7804,
+          "tokens": 40,
+          "text": "Question about Chanderi Saree: Is Chanderi suitable for a daytime wedding? Answer: Yes. Its lightweight sheer quality is perfect for daytime functions where heavy silk might feel too formal."
+        }
+      ],
+      "tokens": {
+        "embed_query": 9,
+        "context": 138,
+        "prompt_total": 448,
+        "llm_input": 452,
+        "llm_output": 89,
+        "answer": 92
+      },
+      "cost_usd": {
+        "embed": 1.8e-07,
+        "llm_input": 6.78e-05,
+        "llm_output": 5.34e-05,
+        "total": 0.00012138
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    },
+    {
+      "question": "Do you sell men's sherwanis?",
+      "expected_answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
+      "answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
+      "retrieval_succeeded": true,
+      "chunks_retrieved": 3,
+      "chunks": [
+        {
+          "chunk_id": "p050_variants",
+          "product_id": "p050",
+          "chunk_type": "variants",
+          "similarity": 0.8094,
+          "tokens": 50,
+          "text": "Cotton Sharara Set is available in colours: white with multicolour embroidery, sky blue with gold mirror work. Available sizes: S, M, L, XL, XXL. Price: \u20b92999. Stock status: in stock."
+        },
+        {
+          "chunk_id": "p049_faq",
+          "product_id": "p049",
+          "chunk_type": "faq",
+          "similarity": 0.8067,
+          "tokens": 35,
+          "text": "Question about Silk Sharara Set: Is the sharara pre-stitched? Answer: Yes. The sharara comes fully stitched in your selected size with an elasticated waist."
+        },
+        {
+          "chunk_id": "p029_variants",
+          "product_id": "p029",
+          "chunk_type": "variants",
+          "similarity": 0.8049,
+          "tokens": 53,
+          "text": "Silk Salwar Kameez is available in colours: ivory with gold motif, teal with silver motif, rust with gold motif. Available sizes: S, M, L, XL, XXL. Price: \u20b92699. Stock status: in stock."
+        }
+      ],
+      "tokens": {
+        "embed_query": 9,
+        "context": 151,
+        "prompt_total": 461,
+        "llm_input": 467,
+        "llm_output": 22,
+        "answer": 23
+      },
+      "cost_usd": {
+        "embed": 1.8e-07,
+        "llm_input": 7.005e-05,
+        "llm_output": 1.32e-05,
+        "total": 8.343e-05
+      },
+      "ragas": {
+        "faithfulness": null,
+        "context_precision": null
+      }
+    }
+  ]
+}

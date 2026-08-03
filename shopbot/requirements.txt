@@ -1,0 +1,30 @@
+# Core API
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+
+# LangChain stack
+langchain
+langchain-core
+langchain-openai
+langchain-chroma
+langchain-community
+
+# Vector store — pinned: version changes break the on-disk schema (chroma_db/)
+chromadb==0.6.3
+
+# OpenAI
+openai
+tiktoken
+
+# Evaluation
+# ragas==0.1.22 is pinned — evaluate.py was written against this version
+# (asyncio monkeypatch in evaluate.py lines 12-49 targets its internals)
+ragas==0.1.22
+# numpy pinned for ragas 0.1.22 compatibility
+numpy==1.26.4
+datasets
+
+# MLflow experiment tracking (optional — requires docker compose up -d)
+mlflow

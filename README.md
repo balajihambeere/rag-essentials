@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/images/book-1-cover.svg" alt="The AI Engineer — Build a Production RAG System with Python, LangChain, and ChromaDB (Book 1 cover)" width="260"/>
+<img src="assests/images/book-1-cover.svg" alt="The AI Engineer — Build a Production RAG System with Python, LangChain, and ChromaDB (Book 1 cover)" width="260"/>
 
 # The AI Engineer — Production RAG Chatbot in Python (LangChain + ChromaDB + FastAPI)
 
@@ -147,7 +147,7 @@ You've read the code. ShopBot works. Chapter 9's evaluation proved it — Faithf
 <table>
 <tr>
 <td width="140" valign="top">
-<img src="docs/images/book-2-cover.svg" alt="The Applied AI Engineer — Hybrid Search, BM25 Reranking, and Production RAG with Qdrant and RAGAS (Book 2 cover)" width="120"/>
+<img src="assests/images/book-2-cover.svg" alt="The Applied AI Engineer — Hybrid Search, BM25 Reranking, and Production RAG with Qdrant and RAGAS (Book 2 cover)" width="120"/>
 </td>
 <td valign="top">
 
@@ -160,7 +160,7 @@ Chapter 9 of this book already told you the truth: Context Precision dropped onc
 </tr>
 <tr>
 <td width="140" valign="top">
-<img src="docs/images/book-3-cover.svg" alt="The Senior AI Engineer — LangGraph, HyDE, CRAG, and Fine-Tuned Embeddings for Advanced RAG (Book 3 cover)" width="120"/>
+<img src="assests/images/book-3-cover.svg" alt="The Senior AI Engineer — LangGraph, HyDE, CRAG, and Fine-Tuned Embeddings for Advanced RAG (Book 3 cover)" width="120"/>
 </td>
 <td valign="top">
 
@@ -173,7 +173,7 @@ Every RAG system eventually meets its hard 9% — the ambiguous question, the qu
 </tr>
 <tr>
 <td width="140" valign="top">
-<img src="docs/images/book-4-cover.svg" alt="The AI Solutions Architect — Multi-Tenant RAG on AWS Bedrock with GDPR Compliance and Audit Trails (Book 4 cover)" width="120"/>
+<img src="assests/images/book-4-cover.svg" alt="The AI Solutions Architect — Multi-Tenant RAG on AWS Bedrock with GDPR Compliance and Audit Trails (Book 4 cover)" width="120"/>
 </td>
 <td valign="top">
 

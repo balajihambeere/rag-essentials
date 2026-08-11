@@ -1,4 +1,4 @@
-# src/api.py
+# shopbot-agent/api.py
 # Source: Book 1, Chapter 8 (Appendix A — Code Wiring)
 # FastAPI endpoint exposing ShopBot to the world.
 # Two routes: GET /health for deployment probes, POST /ask for customer questions.
@@ -13,7 +13,7 @@ import os
 import re
 import uvicorn
 
-from src.chain import build_chain
+from chain import build_chain
 
 # ── Lifespan: build the chain once at startup ─────────────────────────────────
 shopbot_chain = None
@@ -117,4 +117,4 @@ if __name__ == "__main__":
     print(f"  API:     http://localhost:{port}")
     print(f"  Swagger: http://localhost:{port}/docs")
     print(f"  Health:  http://localhost:{port}/health")
-    uvicorn.run("src.api:app", host=host, port=port, reload=True)
+    uvicorn.run("api:app", host=host, port=port, reload=True)

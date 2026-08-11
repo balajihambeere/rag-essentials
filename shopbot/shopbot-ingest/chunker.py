@@ -1,4 +1,4 @@
-# src/chunker.py
+# shopbot-ingest/chunker.py
 # Source: Book 1, Chapter 5 (Appendix A — Code Wiring)
 # Attribute-level chunking: each chunk answers one category of customer question.
 # A product with five field types produces five or more focused chunks.

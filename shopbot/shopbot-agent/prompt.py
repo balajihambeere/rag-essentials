@@ -1,4 +1,4 @@
-# src/prompt.py
+# shopbot-agent/prompt.py
 # Source: Book 1, Chapter 7 + Chapter 10 (Appendix A — Code Wiring)
 
 from langchain_openai import ChatOpenAI
@@ -68,7 +68,7 @@ def run_chain(query: str) -> str:
     Used by evaluation/evaluate.py so it can capture token counts and chunk logs
     before handing results to RAGAS — the chain abstraction hides those details.
     """
-    from src.retriever import retrieve
+    from retriever import retrieve
 
     evidence = retrieve(query)
     if evidence is None:

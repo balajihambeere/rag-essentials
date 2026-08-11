@@ -1,4 +1,4 @@
-# src/retriever.py
+# shopbot-agent/retriever.py
 # Source: Book 1, Chapter 6 (Appendix A — Code Wiring)
 # Threshold-gated retrieval — the gatekeeper of the Grounding Layer.
 # Embeds the customer's query, searches ChromaDB for nearest neighbours,
@@ -9,6 +9,7 @@
 # 0.78–0.94, incorrect (adjacent) results scored 0.48–0.68. The gap between
 # 0.68 and 0.78 is where the threshold sits. (Ch. 6)
 
+import os
 import chromadb
 from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
@@ -24,7 +25,11 @@ embeddings_model = OpenAIEmbeddings()
 
 # Initialized at module level so the ChromaDB client and collection are shared
 # across every request — not recreated per call. (Ch. 8 lifespan pattern)
-client = chromadb.PersistentClient(path="./chroma_db")
+# chroma_db/ lives at the shopbot/ project root, shared with shopbot-ingest/.
+# Resolved relative to this file (not cwd) so it works whether run directly
+# or imported from another working directory (e.g. evaluation/evaluate.py).
+CHROMA_DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "chroma_db")
+client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
 collection = client.get_or_create_collection(
     name="zudyog_products",
     metadata={"hnsw:space": "cosine"},  # HNSW = Hierarchical Navigable Small World — the graph algorithm
@@ -85,7 +90,7 @@ def retrieve(
 def get_retriever(k: int = 3):
     """
     Return a LangChain-compatible retriever wrapping the ChromaDB collection.
-    Used by src/chain.py to wire retrieval into the LangChain expression language.
+    Used by chain.py to wire retrieval into the LangChain expression language.
     """
     vector_store = Chroma(
         client=client,

@@ -55,6 +55,7 @@ except (ImportError, ModuleNotFoundError) as e:
 
 import json
 import os
+import sys
 import time
 import tiktoken
 from datetime import datetime
@@ -64,8 +65,15 @@ from langchain_community.callbacks import get_openai_callback
 from langchain_core.messages import SystemMessage, HumanMessage
 
 from evaluation.test_cases import TEST_CASES
-from src.retriever import retrieve
-from src.prompt import llm, SHOPBOT_SYSTEM
+
+# shopbot-agent/ holds the retrieval + prompt code this evaluates. Its name has
+# a hyphen, so it can't be a dotted import (`from shopbot-agent.x import y`) —
+# add it to sys.path and import its modules by their bare names instead.
+_AGENT_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "shopbot-agent")
+sys.path.insert(0, _AGENT_DIR)
+
+from retriever import retrieve
+from prompt import llm, SHOPBOT_SYSTEM
 
 load_dotenv()
 

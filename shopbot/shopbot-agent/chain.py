@@ -1,4 +1,4 @@
-# src/chain.py
+# shopbot-agent/chain.py
 # Source: Book 1, Chapter 7 (Appendix A — Code Wiring)
 # Wires retrieval, prompt, and LLM into a single LangChain expression language chain.
 # build_chain() is called once at API startup and reused for every request.
@@ -10,8 +10,8 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.prompts import ChatPromptTemplate
 from dotenv import load_dotenv
 
-from src.retriever import get_retriever
-from src.prompt import SHOPBOT_SYSTEM
+from retriever import get_retriever
+from prompt import SHOPBOT_SYSTEM
 
 load_dotenv()
 

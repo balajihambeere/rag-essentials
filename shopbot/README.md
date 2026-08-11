@@ -46,14 +46,14 @@ python test_setup.py
 rm -rf chroma_db/
 
 # Build the vector database (run once; re-run if products.py changes)
-python -m src.ingest
+python shopbot-ingest/ingest.py
 ```
 
 ### Start the API server
 
 ```bash
 source venv/bin/activate        # if not already active
-python -m src.api
+python shopbot-agent/api.py
 # API running at http://localhost:8000
 # Swagger UI: http://localhost:8000/docs
 ```
@@ -103,7 +103,7 @@ Open two terminal windows:
 ```bash
 cd shopbot
 source venv/bin/activate
-python -m src.api
+python shopbot-agent/api.py
 ```
 
 **Terminal 2 — frontend**
@@ -121,7 +121,7 @@ Then open `http://localhost:3000` in your browser. The chat widget in the store 
 
 ```bash
 source venv/bin/activate
-python evaluation/evaluate.py
+python -m evaluation.evaluate
 # Results written to evaluation/results/<run_id>.json
 # Approximate cost per run: ~$0.005
 ```
@@ -139,7 +139,7 @@ railway up
 # Set OPENAI_API_KEY in Railway's environment variables dashboard
 ```
 
-Railway reads `Procfile`: `web: uvicorn src.api:app --host 0.0.0.0 --port $PORT`
+Railway reads `Procfile`: `web: cd shopbot-agent && uvicorn api:app --host 0.0.0.0 --port $PORT`
 
 **Frontend:** Deploy `zudyog-fashion/` to Vercel. Set `SHOPBOT_API_URL` to your Railway backend URL.
 
@@ -180,7 +180,7 @@ cd shopbot && docker compose up -d
 # Terminal 2 — Python backend
 cd shopbot
 source venv/bin/activate
-python -m src.api
+python shopbot-agent/api.py
 # Expect: "MLflow tracing → http://localhost:5001" then "ShopBot ready."
 
 # Terminal 3 — Next.js frontend
@@ -193,7 +193,7 @@ npm run dev
 
 ### Test 1 — Backend contract via Swagger UI (Ch. 8)
 
-**What Ch. 8 built:** `src/api.py` — FastAPI with Pydantic validation and auto-generated `/docs`.
+**What Ch. 8 built:** `shopbot-agent/api.py` — FastAPI with Pydantic validation and auto-generated `/docs`.
 
 1. Open `http://localhost:8000/docs`
 2. Expand `POST /ask`
@@ -212,8 +212,8 @@ This confirms the backend is live and the Pydantic schema (`question` required, 
 
 ### Test 2 — Chat widget: grounded product question (Ch. 6 + Ch. 7)
 
-**What Ch. 6 built:** `src/retriever.py` — similarity threshold 0.75, max 3 chunks returned.
-**What Ch. 7 built:** `src/prompt.py` — temperature 0, honest system prompt.
+**What Ch. 6 built:** `shopbot-agent/retriever.py` — similarity threshold 0.75, max 3 chunks returned.
+**What Ch. 7 built:** `shopbot-agent/prompt.py` — temperature 0, honest system prompt.
 
 1. Open `http://localhost:3000`
 2. Click the 💬 button (bottom-right corner) to open the chat drawer
@@ -246,7 +246,7 @@ to `support@zudyog.com`. The catalog has no payment or shipping data — no chun
 threshold, so the prompt's honesty constraint kicks in.
 
 Note: return policy questions ₹(e.g., "What is your return policy for the silk saree?")₹ are **in scope** —
-every product in `data/products.py` has `return_policy` and `exchange_policy` fields that are chunked
+every product in `shopbot-ingest/data/products.py` has `return_policy` and `exchange_policy` fields that are chunked
 and indexed. ShopBot will answer those correctly from the retrieved chunks.
 
 ---

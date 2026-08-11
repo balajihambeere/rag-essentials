@@ -1,23 +1,28 @@
-# src/ingest.py
+# shopbot-ingest/ingest.py
 # Source: Book 1, Chapter 4 + Chapter 5 (Appendix A — Code Wiring)
 # Reads the product catalog, converts each product into chunks,
 # embeds all chunks in a single API call, and stores them in ChromaDB.
 # Run once to build the Grounding Layer.
 # Re-run whenever the catalog changes — get_or_create_collection is safe to repeat.
 
+import os
 import sys
 import chromadb
 from langchain_openai import OpenAIEmbeddings
 from dotenv import load_dotenv
 
 from data.products import PRODUCTS
-from src.chunker import product_to_chunks
+from chunker import product_to_chunks
 
 load_dotenv()
 
 force = "--force" in sys.argv
 
-client = chromadb.PersistentClient(path="./chroma_db")
+# chroma_db/ lives at the shopbot/ project root, shared with shopbot-agent/.
+# Resolved relative to this file (not cwd) so it works whether run directly
+# or imported from another working directory (e.g. evaluation/evaluate.py).
+CHROMA_DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "chroma_db")
+client = chromadb.PersistentClient(path=CHROMA_DB_PATH)
 collection = client.get_or_create_collection(
     name="zudyog_products",
     metadata={"hnsw:space": "cosine"},  # HNSW = Hierarchical Navigable Small World — the graph algorithm

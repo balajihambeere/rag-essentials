@@ -46,30 +46,28 @@ Most RAG tutorials stop at "embed some text, query a vector store, print an answ
 
 ## Architecture
 
-```
-zudyog-fashion/   ← Next.js storefront + AI chat widget       (port 3000)
-shopbot/          ← FastAPI RAG backend (retriever + LLM)     (port 8000)
+```mermaid
+graph LR
+    WEB["zudyog-fashion<br/>:3000"] -->|"HTTP /ask"| API["shopbot API<br/>:8000"]
+    API -->|"embed + similarity search"| CHROMA[("ChromaDB<br/>zudyog_catalog collection")]
+    API -->|"traces each request"| MLFLOW[("MLflow<br/>experiment tracking")]
+
+    EVAL["evaluation/evaluate.py<br/>RAGAS harness"] -->|"runs the pipeline offline"| CHROMA
+    EVAL -->|"logs Faithfulness + Context Precision"| MLFLOW
 ```
 
-```
-Customer question
-      │
-      ▼
-FastAPI  /ask  (Pydantic-validated input)
-      │
-      ▼
-Embed query → text-embedding-3-small (1,536-dim vector)
-      │
-      ▼
-ChromaDB similarity search  (0.75 threshold, top 3 chunks)
-      │
-      ├── nothing above threshold → honest fallback → support@zudyog.com
-      │
-      ▼
-Grounded prompt (context + question) → gpt-4o-mini @ temperature 0
-      │
-      ▼
-Answer — traced to MLflow, scored by RAGAS
+```mermaid
+flowchart TD
+    Q(["Customer question"]) --> API["FastAPI /ask<br/>Pydantic-validated input"]
+    API --> EMBED["Embed query<br/>text-embedding-3-small (1,536-dim)"]
+    EMBED --> SEARCH["ChromaDB similarity search<br/>0.75 threshold, top 3 chunks"]
+    SEARCH -->|"nothing above threshold"| FALLBACK["Honest fallback<br/>→ support@zudyog.com"]
+    SEARCH -->|"top-3 chunks retrieved"| PROMPT["Grounded prompt<br/>context + question"]
+    PROMPT --> LLM["gpt-4o-mini @ temperature 0"]
+    LLM --> ANSWER(["Answer"])
+    FALLBACK --> ANSWER
+    ANSWER -.->|traced| MLFLOW[("MLflow")]
+    ANSWER -.->|scored offline| RAGAS[("RAGAS<br/>Faithfulness, Context Precision")]
 ```
 
 ## Tech stack

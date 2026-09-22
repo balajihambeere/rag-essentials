@@ -1,6 +1,6 @@
 # Contributing to RAG Essentials
 
-Thanks for considering a contribution. This repo is the real, working codebase behind Book 1 of the RAG Mastery Series — it's meant to stay a runnable, honest reference implementation, not a polished framework. Contributions that keep it that way are the most welcome kind.
+Thanks for considering a contribution. This repo is the real, working codebase behind Book 1 of The Pramana Framework: Enterprise AI Systems Series — it's meant to stay a runnable, honest reference implementation, not a polished framework. Contributions that keep it that way are the most welcome kind.
 
 ## Ground rules
 

@@ -4,7 +4,7 @@
 
 # RAG Essentials — Build AI Systems That Stay Grounded in Reality
 
-**ShopBot**: an open-source, production-grade Retrieval-Augmented Generation (RAG) chatbot built end-to-end in Python — the complete companion codebase for *RAG Essentials*, Book 1 of the RAG Mastery Series.
+**ShopBot**: an open-source, production-grade Retrieval-Augmented Generation (RAG) chatbot built end-to-end in Python — the complete companion codebase for *RAG Essentials*, Book 1 of The Pramana Framework: Enterprise AI Systems Series.
 
 ### 📖 Every line of this code is explained, chapter by chapter, in the book.
 
@@ -136,7 +136,7 @@ Developers, ML engineers, and technical founders learning to build **production 
 
 ## Related
 
-This is Book 1 of the RAG Mastery series. Book 2, *RAG In Practice*, continues this exact codebase with hybrid BM25 + dense retrieval, cross-encoder re-ranking, and Redis conversation memory — closing the vocabulary-gap and precision failures this book's evaluation surfaces.
+This is Book 1 of The Pramana Framework: Enterprise AI Systems Series. Book 2, *RAG In Practice*, continues this exact codebase with hybrid BM25 + dense retrieval, cross-encoder re-ranking, and Redis conversation memory — closing the vocabulary-gap and precision failures this book's evaluation surfaces.
 
 ## Where the story goes next
 
@@ -188,7 +188,7 @@ There's a specific moment every founder building this hits: the first enterprise
 
 ## About the book
 
-**RAG Essentials** is Book 1 of the **RAG Mastery Series** — 11 books on building production Retrieval-Augmented Generation systems, from first embeddings to cloud-native, multi-tenant agentic architectures. Four core books are available now (this one included); seven companion books release quarterly starting November 2026.
+**RAG Essentials** is Book 1 of **The Pramana Framework: Enterprise AI Systems Series** — 11 books on building production, enterprise-grade AI systems: RAG, agentic architectures, MCP integrations, context engineering, AWS cloud-native deployment, and guardrails, from first embeddings to autonomous, multi-tenant workflows. Four core books are available now (this one included); seven companion books release quarterly starting November 2026.
 
 **Book 1 — *RAG Essentials* — the book behind this repository** is available at **[Amazon](https://www.amazon.com/RAG-Essentials-Systems-Grounded-Framework-ebook/dp/B0GYG7137Y)**.
 

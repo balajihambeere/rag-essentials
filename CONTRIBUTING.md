@@ -1,6 +1,6 @@
-# Contributing to The AI Engineer
+# Contributing to RAG Essentials
 
-Thanks for considering a contribution. This repo is the real, working codebase behind Book 1 of the Zudyog RAG Mastery Series — it's meant to stay a runnable, honest reference implementation, not a polished framework. Contributions that keep it that way are the most welcome kind.
+Thanks for considering a contribution. This repo is the real, working codebase behind Book 1 of the RAG Mastery Series — it's meant to stay a runnable, honest reference implementation, not a polished framework. Contributions that keep it that way are the most welcome kind.
 
 ## Ground rules
 
@@ -36,4 +36,4 @@ Please include:
 
 ## Questions
 
-Open a [discussion or issue](https://github.com/zudyog/the-ai-engineer/issues) — no question is too basic.
+Open a discussion or issue on this repo — no question is too basic.

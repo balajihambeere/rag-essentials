@@ -7,7 +7,7 @@
 import { chromium } from "playwright";
 import { mkdirSync } from "fs";
 
-const OUT_DIR = "/Applications/workplace/rag-series/the-ai-engineer/docs/video/raw";
+const OUT_DIR = "/Applications/workplace/rag-series/rag-essentials/docs/video/raw";
 mkdirSync(OUT_DIR, { recursive: true });
 
 const EXTENDED = process.argv.includes("--extended");

@@ -147,7 +147,7 @@ def run_single_query(case: dict) -> dict:
         answer = (
             "I don't have a product that matches that specifically. "
             "Could you describe what you're looking for differently, "
-            "or contact our team at support@zudyog.com?"
+            "or contact our team at support@example.com?"
         )
         llm_input_tokens = 0
         llm_output_tokens = 0

@@ -99,7 +99,7 @@ TEST_CASES = [
     },
     {
         "query": "Does the Anarkali suit have a cotton lining?",
-        "expected_answer": "I don't have information about the lining material for the Anarkali suit. For specific fabric details, please contact our team at support@zudyog.com.",
+        "expected_answer": "I don't have information about the lining material for the Anarkali suit. For specific fabric details, please contact our team at support@example.com.",
         "relevant_chunk_ids": [],
     },
     # ── Out-of-scope — system should withhold, not guess ─────────────────────
@@ -110,7 +110,7 @@ TEST_CASES = [
     },
     {
         "query": "Do you sell men's sherwanis?",
-        "expected_answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
+        "expected_answer": "I don't have that specific information. Please reach our support team at support@example.com for help.",
         "relevant_chunk_ids": [],
     },
 ]

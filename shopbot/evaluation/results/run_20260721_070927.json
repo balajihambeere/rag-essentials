@@ -134,7 +134,7 @@
     {
       "question": "Is the silk saree suitable for Diwali?",
       "expected_answer": "Yes, the silk saree is festive wear ideal for Diwali.",
-      "answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
+      "answer": "I don't have that specific information. Please reach our support team at support@example.com for help.",
       "retrieval_succeeded": true,
       "chunks_retrieved": 3,
       "chunks": [
@@ -440,7 +440,7 @@
     {
       "question": "What is the most expensive product?",
       "expected_answer": "The silk saree is the most expensive product at \u20b94,299.",
-      "answer": "I don't have a product that matches that specifically. Could you describe what you're looking for differently, or contact our team at support@zudyog.com?",
+      "answer": "I don't have a product that matches that specifically. Could you describe what you're looking for differently, or contact our team at support@example.com?",
       "retrieval_succeeded": false,
       "chunks_retrieved": 0,
       "chunks": [],
@@ -517,7 +517,7 @@
     {
       "question": "Can I get the woolen shawl in black?",
       "expected_answer": "The woolen shawl is available in charcoal grey and maroon, not black.",
-      "answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
+      "answer": "I don't have that specific information. Please reach our support team at support@example.com for help.",
       "retrieval_succeeded": true,
       "chunks_retrieved": 3,
       "chunks": [
@@ -976,7 +976,7 @@
     {
       "question": "Do you have anything for a winter wedding?",
       "expected_answer": "I don't have a product that matches that specifically.",
-      "answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
+      "answer": "I don't have that specific information. Please reach our support team at support@example.com for help.",
       "retrieval_succeeded": true,
       "chunks_retrieved": 3,
       "chunks": [

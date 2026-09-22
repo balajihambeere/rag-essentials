@@ -1,6 +1,6 @@
 # ShopBot — RAG Product Assistant for zUdyog Fashion
 
-A production-ready RAG chatbot built from Book 1 of *The AI Engineer* using the Pramana Framework.
+A production-ready RAG chatbot built from Book 1 of *RAG Essentials* using the Pramana Framework.
 Two applications work together: a **Python FastAPI backend** (ShopBot) and a **Next.js frontend** (zUdyog Fashion store).
 
 ---
@@ -242,7 +242,7 @@ When no chunks pass the threshold, the LLM has no context and must say so honest
 1. Type: `Do you offer cash on delivery?`
 
 **Expected:** ShopBot says it doesn't have information about payment methods and directs the customer
-to `support@zudyog.com`. The catalog has no payment or shipping data — no chunks pass the 0.75
+to `support@example.com`. The catalog has no payment or shipping data — no chunks pass the 0.75
 threshold, so the prompt's honesty constraint kicks in.
 
 Note: return policy questions ₹(e.g., "What is your return policy for the silk saree?")₹ are **in scope** —

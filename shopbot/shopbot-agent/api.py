@@ -104,7 +104,7 @@ def ask_shopbot(payload: QuestionRequest):
     """
     Ask ShopBot a product question.
     Returns a grounded answer sourced from zUdyog Fashion's catalog,
-    or a deliberate fallback routed to support@zudyog.com.
+    or a deliberate fallback routed to support@example.com.
     """
     answer = shopbot_chain.invoke(payload.question)
     return AnswerResponse(answer=answer, session_id=payload.session_id)

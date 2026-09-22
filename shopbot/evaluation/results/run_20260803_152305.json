@@ -134,7 +134,7 @@
     {
       "question": "Is the silk saree suitable for Diwali?",
       "expected_answer": "Yes, the silk saree is festive wear ideal for Diwali.",
-      "answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
+      "answer": "I don't have that specific information. Please reach our support team at support@example.com for help.",
       "retrieval_succeeded": true,
       "chunks_retrieved": 3,
       "chunks": [
@@ -287,7 +287,7 @@
     {
       "question": "What's good for a function?",
       "expected_answer": "The silk saree and the anarkali suit are both suitable for a function \u2014 both are festive wear designed for celebrations and formal occasions.",
-      "answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
+      "answer": "I don't have that specific information. Please reach our support team at support@example.com for help.",
       "retrieval_succeeded": true,
       "chunks_retrieved": 2,
       "chunks": [
@@ -483,7 +483,7 @@
     {
       "question": "Can I get the woolen shawl in black?",
       "expected_answer": "The woolen shawl is available in charcoal grey and maroon, not black.",
-      "answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
+      "answer": "I don't have that specific information. Please reach our support team at support@example.com for help.",
       "retrieval_succeeded": true,
       "chunks_retrieved": 3,
       "chunks": [
@@ -890,8 +890,8 @@
     },
     {
       "question": "Does the Anarkali suit have a cotton lining?",
-      "expected_answer": "I don't have information about the lining material for the Anarkali suit. For specific fabric details, please contact our team at support@zudyog.com.",
-      "answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
+      "expected_answer": "I don't have information about the lining material for the Anarkali suit. For specific fabric details, please contact our team at support@example.com.",
+      "answer": "I don't have that specific information. Please reach our support team at support@example.com for help.",
       "retrieval_succeeded": true,
       "chunks_retrieved": 3,
       "chunks": [
@@ -942,7 +942,7 @@
     {
       "question": "Do you have anything for a winter wedding?",
       "expected_answer": "I don't have a product that matches that specifically.",
-      "answer": "For a winter wedding, I recommend considering our velvet lehengas, as velvet is best suited for autumn and winter events. If you're looking for something else, our silk or georgette lehengas are also great options for warmer climates, but they can be layered for added warmth in winter. \n\nIf you need more specific details about styles or prices, please reach out to our support team at support@zudyog.com for help!",
+      "answer": "For a winter wedding, I recommend considering our velvet lehengas, as velvet is best suited for autumn and winter events. If you're looking for something else, our silk or georgette lehengas are also great options for warmer climates, but they can be layered for added warmth in winter. \n\nIf you need more specific details about styles or prices, please reach out to our support team at support@example.com for help!",
       "retrieval_succeeded": true,
       "chunks_retrieved": 3,
       "chunks": [
@@ -992,8 +992,8 @@
     },
     {
       "question": "Do you sell men's sherwanis?",
-      "expected_answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
-      "answer": "I don't have that specific information. Please reach our support team at support@zudyog.com for help.",
+      "expected_answer": "I don't have that specific information. Please reach our support team at support@example.com for help.",
+      "answer": "I don't have that specific information. Please reach our support team at support@example.com for help.",
       "retrieval_succeeded": true,
       "chunks_retrieved": 3,
       "chunks": [
